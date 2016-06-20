@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<script src="js/jquery.js"></script>
+		<script>
+			(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			        recalc = function () {
+			            var clientWidth = docEl.clientWidth;
+			            if (!clientWidth) return;
+			            if(clientWidth>=640){
+			                docEl.style.fontSize = '100px';
+			            }else{
+			                docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+			            }
+			        };
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="main">
+			<div class="header">
+				<input type="text" class="txt" />
+				<a href="###"></a>
+			</div>
+			<div class="border"></div>
+			<div class="nav">
+				<ul class="navul1" id="ul1">
+					<li class="nomargin active">
+						<div class="icon2">
+							<img src="img/game.jpg" alt="" />
+							<p>互动游戏</p>
+						</div>
+					</li>
+					<li>
+						<div class="icon2">
+							<img src="img/game.jpg" alt="" />
+							<p>互动游戏</p>
+						</div>
+						<span></span>
+					</li>
+					<li>
+						<div class="icon2">
+							<img src="img/game.jpg" alt="" />
+							<p>互动游戏</p>
+						</div>
+						<span></span>
+					</li>
+					<li>
+						<div class="icon2">
+							<img src="img/game.jpg" alt="" />
+							<p>互动游戏</p>
+						</div>
+						<span></span>
+					</li>
+					<li>
+						<div class="icon2">
+							<img src="img/game.jpg" alt="" />
+							<p>互动游戏</p>
+						</div>
+						<span></span>
+					</li>
+				</ul>
+			</div>
+			<div class="bg">
+				<ul class="navul2">
+					<li class="nomargin">
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li class="nomargin">
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>	
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/yuyuepaidui.jpg" alt="" />
+							<p>预约排队</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--大牌驾到-->
+			<div class="big">
+				<h1>大牌驾到
+					<a href="###">更多商品>></a>
+				</h1>
+				<div class="brandimg">
+					<img src="img/img01.jpg" alt="" />
+					<img src="img/img01.jpg" alt="" />
+					<img src="img/img01.jpg" alt="" />
+					<img src="img/img01.jpg" alt="" />
+				</div>
+			</div>
+			<!--优惠活动-->
+			<div class="new">
+				<h1>大牌驾到
+					<a href="###">更多商品>></a>
+				</h1>
+				<div class="activeimg">
+					<img src="img/img05.jpg" alt="" />
+				</div>
+			</div>
+			<!--最新优惠-->
+			<div class="favorable">
+				<h1>大牌驾到
+					<a href="###">更多商品>></a>
+				</h1>
+				<div class="container">
+					<img class="fl" src="img/img06.jpg" alt="" />
+					<div class="con fr">
+						<h3>优惠活动标题优惠活动</h3>
+						<p>商铺名称商铺名称商铺名称</p>
+						
+					</div>
+				</div>
+			</div>
+			<!--商家团购-->
+			<div class="groupbuy">
+				<h1>大牌驾到
+					<a href="###">更多商品>></a>
+				</h1>
+				<div class="tuangou">
+					<img src="img/img07.jpg" alt="" />
+					<div class="con1 fr">
+						<h3>团购标准团购标准团购标准</h3>
+						<p>描述描述描述描述</p>
+						<i class="fl">¥255</i>
+						
+					</div>	
+				</div>
+				<div class="tuangou" style="margin-top:0.16rem;">
+					<img src="img/img07.jpg" alt="" />
+					<div class="con1 fr">
+						<h3>团购标准团购标准团购标准</h3>
+						<p>描述描述描述描述</p>
+						<i class="fl">¥255</i>
+						
+					</div>	
+				</div>
+			</div>
+			<!--优惠卡券-->
+			<div class="youhui">
+				<h1>大牌驾到
+					<a href="###">更多商品>></a>
+				</h1>
+				<div class="kaquan">
+					<img src="img/img08.jpg" alt="" />
+					<div class="con2 fr">
+						<h3>团购标准团购标准团购标准</h3>
+						<p>描述描述描述描述</p>
+						<p>有限期至2016/12/30</p>
+					</div>
+				</div>
+				<div class="kaquan" style="margin-top:0.16rem;">
+					<img src="img/img08.jpg" alt="" />
+					<div class="con2 fr">
+						<h3>团购标准团购标准团购标准</h3>
+						<p>描述描述描述描述描述描述描述描述</p>
+						<p>有限期至2016/12/30</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

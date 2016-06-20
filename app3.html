@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery.js"></script>
+		<script>
+			(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			        recalc = function () {
+			            var clientWidth = docEl.clientWidth;
+			            if (!clientWidth) return;
+			            if(clientWidth>=640){
+			                docEl.style.fontSize = '100px';
+			            }else{
+			                docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+			            }
+			        };
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="css/app3.css"/>
+	
+	</head>
+
+	<body>
+		<div id="logo_wrapper">
+			<img src="img/lo1.jpg" />
+		</div>
+		<div id="content_wrapper">
+			<ul>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+				</li>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+				</li>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+				</li>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+				</li>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+				</li>
+				<li>
+						<img src="img/con1.jpg"/></dt>
+						<p>注册经纪人</p>
+						<p></p>
+				</li>
+			</ul>
+
+		</div>
+		<div class="invit_wrapper">
+			<div class="inner">
+				<p class="inviBtn">邀请好友</p>
+			</div>
+		</div>
+		<div class="weilou">
+			<p class="info">
+				<i><img src="img/in1.jpg"/></i>
+				<span class="sp1">微楼书</span>
+				<i><img src="img/in2.jpg"/></i>
+				<span class="sp2">全景露天</span>
+			</p>
+
+		</div>
+		<div id="footer">
+			<div class="ind"><a href="">首页</a></div>
+			<div class="cla"><a href="class.html">客户</a></div>
+			<div class="car"><a class="cara" href="shopcar.html">规则</a></div>
+			<div class="my-show"><a href="myshow.html">我</a></div>
+		</div>
+	</body>
+
+</html>

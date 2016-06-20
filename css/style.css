@@ -1,0 +1,369 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #efefef;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+input {
+	display: block;
+	border: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.header {
+	width: 6.4rem;
+	height: 2.71rem;
+	background: url("../img/header.jpg") no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.header a {
+	display: block;
+	width: 0.75rem;
+	height: 0.75rem;
+	position: absolute;
+	left: 4.52rem;
+	top: 0.14rem;
+}
+
+.border {
+	width: 6.4rem;
+	height: 0.14rem;
+	background: url("../img/border.jpg") no-repeat;
+	margin: 0 auto;
+}
+
+.txt {
+	width: 4.67rem;
+	height: 0.75rem;
+	background: #fff;
+	opacity: 0.3;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 0.7rem;
+	top: 0.14rem;
+}
+
+.nav {
+	width: 6.4rem;
+	height: 1.3rem;
+	border-bottom: 0.01rem solid #d5d1d2;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.nav ul {
+	width: 6.4rem;
+	height: 1.3rem;
+}
+
+.nav ul li {
+	float: left;
+	width: 1.2rem;
+	-background: red;
+	margin-left: 0.1rem;
+	position: relative;
+}
+
+.navul1 .nomargin {
+	margin-left: 0;
+}
+
+.nav .navul1 li div {
+	width: 1.2rem;
+	padding-top: 0.16rem;
+}
+
+div img {
+	height: 0.48rem;
+}
+
+.icon1 img {
+	margin-left: 0.4rem;
+}
+
+.icon2 img {
+	margin-left: 0.24rem;
+}
+
+.icon3 img {
+	margin-left: 0.26rem;
+}
+
+.navul1 p {
+	font-size: 0.22rem;
+	color: #666;
+	width: 1.2rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	text-align: center;
+}
+
+span {
+	display: block;
+	width: 0.18rem;
+	height: 0.16rem;
+	background: url("../img/icon_up.jpg");
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0.5rem;
+	top: 1.16rem;
+	display: none;
+}
+
+.navul2 {
+	width: 6.4rem;
+}
+
+.navul2 li {
+	float: left;
+	padding-top: 0.25rem;
+}
+
+.navul2 .nomargin {
+	margin-left: 0;
+}
+
+.navul2 div img {
+	height: 0.3rem;
+	margin-left: 0.4rem;
+}
+
+.navul2 p {
+	font-size: 0.22rem;
+	color: #666;
+	width: 1.2rem;
+	height: 0.47rem;
+	line-height: 0.47rem;
+	text-align: center;
+}
+
+.bg {
+	width: 6.4rem;
+	height: 2.06rem;
+	background: #Fff;
+	margin: 0 auto;
+}
+
+
+/*大牌驾到模块*/
+
+.big {
+	width: 6rem;
+	height: 1.46rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 0.22rem;
+	color: #ac321d;
+	font-weight: 100;
+	height: 0.54rem;
+	line-height: 0.6rem;
+	margin-bottom: 0.13rem;
+	background: url("../img/border-bot.jpg") no-repeat 0 0.52rem;
+}
+
+h1 a {
+	float: right;
+	display: block;
+	width: 1.42rem;
+	height: 0.54rem;
+	color: #575556;
+	line-height: 0.6rem;
+}
+
+.brandimg {
+	width: 6rem;
+}
+
+.brandimg img {
+	width: 1.43rem;
+	height: 0.78rem;
+	float: left;
+	margin-left: 0.08rem;
+}
+
+.brandimg img:nth-child(1) {
+	margin-left: 0;
+}
+
+.new {
+	width: 6rem;
+	margin: 0 auto;
+}
+
+.activeimg {
+	width: 6rem;
+	position: relative;
+}
+
+.activeimg img {
+	width: 6rem;
+	height: 1.66rem;
+}
+
+h2 {
+	width: 5.76rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 1.18rem;
+	left: 0;
+	font-size: 0.22rem;
+	color: #fff;
+	font-weight: 100;
+	padding-left: 0.24rem;
+}
+
+h2 em {
+	display: block;
+	font-style: normal;
+	font-weight: 100;
+	width: 2.86rem;
+	float: right;
+}
+
+
+/*优惠活动*/
+
+.favorable {
+	width: 6rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+}
+
+.favorable .container {
+	height: 1.87rem;
+}
+
+.container img {
+	height: 1.87rem;
+}
+
+.con {
+	width: 3.16rem;
+}
+
+h3 {
+	height: 0.66rem;
+	line-height: 0.66rem;
+	color: #9c2f18;
+	font-weight: 100;
+	font-size: 0.28rem;
+}
+
+p {
+	height: 0.40rem;
+	font-size: 0.22rem;
+	color: #666;
+}
+
+.con .ad {
+	width: 3.16rem;
+	height: 0.56rem;
+	font-size: 0.22rem;
+	color: #666;
+	line-height: 0.56rem;
+}
+
+.btn {
+	width: 1.1rem;
+	height: 0.52rem;
+	border: 0.01rem solid #9c2d19;
+	border-radius: 0.05rem;
+	color: #666;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.52rem;
+	margin-right: 0.46rem;
+}
+
+
+/*商家团购*/
+
+.groupbuy {
+	width: 6rem;
+	margin: 0 auto;
+	height: 4.2rem;
+	overflow: hidden;
+}
+
+.tuangou {
+	background: #fff;
+	height: 1.63rem;
+}
+
+.tuangou img {
+	height: 1.63rem;
+	float: left;
+}
+
+.con1 {
+	width: 4.06rem;
+}
+
+i {
+	display: block;
+	height: 0.56rem;
+	font-size: 0.22rem;
+	color: #a13729;
+	font-style: normal;
+	line-height: 0.56rem;
+}
+
+strong {
+	width: 0.9rem;
+	font-weight: 100;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	font-size: 0.22rem;
+	text-decoration: line-through;
+	color: #ccc;
+	text-align: right;
+}
+
+
+/*优惠卡券*/
+
+.youhui {
+	width: 6rem;
+	margin: 0 auto;
+	height: 4.2rem;
+}
+
+.kaquan {
+	width: 6rem;
+	height: 1.62rem;
+	background: #fff;
+}
+
+.kaquan img {
+	height: 1.62rem;
+	float: left;
+}
